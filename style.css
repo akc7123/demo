@@ -1,0 +1,212 @@
+
+
+
+.container-fluid{
+      height: 100vh;
+      width: 100%;
+      margin-bottom: 5px;
+      background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/BGimage.jpg) ;
+      
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+
+}
+
+#nave{
+   padding: 35px;
+}
+
+
+.navbar-brand img {
+   
+    width: 150px;
+    height: auto; 
+    max-width: 100%; 
+    
+}
+
+/* ---- */
+.language-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+
+.language-btn img {
+    width: 10px;
+    margin-left: 10px;
+}
+nav button {
+    outline: none;
+    border: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 764px) {
+    .navbar-brand img  {
+      
+      width: 100px; /* Add some padding around the form */
+    }
+    #nave{
+        padding: 10px;
+    }
+    .text-col h2{
+        text-align: center;
+    }
+    .text-col p {
+        text-align: center;
+    }
+
+   
+}
+
+
+
+
+/* ----------------- */
+
+.main-heading{
+    height: 671px;
+    width: 76vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-self: center;
+
+}
+.main-heading h1 {
+      text-align: center;
+      color: white;
+      font-weight: 800; /* Font-weight should be a number like 100, 200, 300, ... 900 */
+  }
+  
+  .main-heading p{
+      text-align: center;
+      color: white;
+      font-weight: 600;
+  }
+
+  .text-col h2 {
+   
+    margin-top: 100px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.text-col p {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+/* Base styles for the form */
+.main-search {
+    width: 100%;
+    max-width: 500px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the form */
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.main-search input[type="search"] {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px; /* Add some padding for better usability */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.main-btn {
+    background-color: #e50914;
+    color: #FFF;
+    font-weight: 400;
+    border: 2px solid #e50914;
+    width: 30%;   
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Media Query for extra-small devices */
+@media (max-width: 812px) {
+    .main-search {
+      
+        padding: 10px; /* Add some padding around the form */
+    }
+
+    .main-search input[type="search"] {
+        width: 100%; /* Full width of the parent container */
+        margin-bottom: 10px; /* Space between input and button */
+    }
+
+    .main-btn {
+        width: 30%; /* Full width of the parent container */
+        overflow: hidden;
+        font-size: 12px;
+    }
+}
+
+
+.patition-img img{
+   width: 400px;
+   height: 400px;  
+}
+
+.partition{
+      height: 50vh;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 5px;
+  }
+  
+  .partition-heading h2 {
+      color: white; /* Added a valid color */
+      font-size: 17px; /* Corrected font size */
+      font-weight: 900; /* Corrected font weight */
+  }
+  
+  .partition-heading p {
+      color: white; /* Corrected color value */
+      font-size: 12px;
+      font-weight: 400; 
+  }
+  
+.partition-img img {
+      width: 365px;
+    height: 273px;
+}
+
+.partition-1{
+      flex-direction: row-reverse;
+  }
+  
+  .partition-3{
+    flex-direction: row-reverse;
+}
+
+
+
+/* footer */
+
+.faq {
+    padding: 79px;
+    text-align: center;
+}
+
+
+.accordion-button.collapsed {
+    background-color: #444444; 
+    color: #ffffff;            /
+}
